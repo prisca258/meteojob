@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-image: url("kj.png");
-    background-color: royalblue;
+    background-color:#0f7ec5;
     background-repeat: repeat-y;
     background-size: cover;
 }
@@ -14,14 +14,18 @@ main{
     padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
+    font-family: 'Open Sans',Arial, sans-serif;
     
 }
 
 .pre{
     width: 225px;
+    height: 25px;
 }
 .large{
     width: 500px;
+    margin-top: 5px;
+    height: 25px;
 }
 .image{
     padding-top: 20px;
@@ -30,6 +34,9 @@ main{
 .texte{
     color: white;
     text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 21px;
+    font-weight: bold;
     
 }
 
@@ -41,46 +48,44 @@ main{
 }
 span{
     font-size: 0.8em;
-    color: orange;
+    
 }
-.bord{
-    background-color: palegoldenrod;
-    border-color: orange;
-}
+
+
 
 label{
     font-weight: bold;
 }
 .boutton{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 150px 1fr;
     grid-gap: 10px;
 
     
     
 }
 button:hover{
-    background-color: royalblue;
+    background-color:#0f7ec5;
 }
 button{
-    padding: 15px;
+    padding: 8px;
+    background-color: #f2f2f2;
 }
 .bot1{
     border: none;
     background-color: white;
+    
 }
 .bot0{
-    background-color: royalblue;
+    background-color: #0f7ec5;
     color: white;
 } 
-/*
-.bas{
-    text-align: center;
-} */
+
 .cont{
-    padding: 15px;
+    padding: 10px;
     color: white;
-    background-color: royalblue;
+    background-color: #3498db ;
+    width: 120px;
 }
 .centre{
     display: flex;
@@ -92,10 +97,11 @@ button{
 .fusion{
     width: 500px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border: grey 1px solid;
     padding: 3px;
-    margin-right: 15px;
+    margin-right: 5px;
+    margin-top: 5px;
     
 }
 .none{
@@ -105,21 +111,34 @@ button{
 }
 ::placeholder{
     padding: 20px;
+    color: #d3cdcd;
+    font-size: 14px;
 }
 .blanc{
     color: white;
-    background-color: rgb(233, 227, 227);
-    border-radius: 5px;
-    height: 20px;
+    background-color: transparent;
+    height: 15px;
+    width: 40px;
     padding: 15px;
+    text-align: center;
+    font-size: 12px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
     
 }
 .grise{
     color: white;
-    background-color: grey;
-    border-radius: 5px;
-    height: 20px;
+    background-color:rgb(167, 161, 161);
+    height: 15px;
+    width: 40px;
     padding: 15px;
+    font-size: 12px;
+    text-align: center;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px ;
 }
 a{
     color: black;
@@ -129,3 +148,30 @@ a{
     flex-direction: row;
 
 }
+.ouinon{
+    display: flex;
+    margin-top: 20px;
+    
+    
+}
+label{
+    color: #16354e;
+    font-size: 14px;
+    padding-bottom: px;
+    
+}
+input{
+    margin-top: 5px;
+    
+}
+.bas{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: justify;
+}
+.taille{
+    font-weight: bold;
+    font-size: 13px;
+    
+}
+
