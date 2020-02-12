@@ -180,6 +180,7 @@ input{
 .taille{
     font-weight: bold;
     font-size: 13px;
+    border: none;
     
 }
 span{
