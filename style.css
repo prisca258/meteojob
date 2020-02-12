@@ -47,7 +47,9 @@ main{
     justify-content: space-between;
 }
 span{
-    font-size: 0.8em;
+    font-size: 14px;
+    text-align: center;
+    
     
 }
 
@@ -102,7 +104,7 @@ button{
     width: 500px;
     display: flex;
     justify-content: space-between;
-    border: #9c9a9a 1px solid;
+    border: #d3cdcd 1px solid;
     padding: 3px;
     margin-right: 8px;
     margin-top: 5px;
@@ -124,29 +126,30 @@ button{
     color: white;
     background-color: transparent;
     height: 10px;
-    width: 45px;
-    padding: 15px;
+    width: 50px;
+    padding: 10px 15px;
     text-align: center;
-    font-size: 12px;
     border: none;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
+    
     
     
 }
 .grise{
     color: white;
-    background-color:rgb(167, 161, 161);
-    height: 10px;
-    width: 45px;
-    padding: 15px;
-    font-size: 12px;
-    text-align:justify;
+    background-color:#b9c2ca;
+    height: 20px;
+    width: 57px; 
+    padding: 10px 15px 30px;
+    text-align:center;
     border: none;
     border-top-right-radius: 5px;
     border-bottom-right-radius:5px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
+
+    
     
 }
 a{
@@ -155,19 +158,25 @@ a{
 .pied{
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
+    
+    
 
 }
 .ouinon{
     display: flex;
+    flex-direction:row;
+    margin-left: 40px;
     margin-top: 10px;
-
+    
+    
     
     
 }
 label{
     color: #16354e;
     font-size: 14px;
-    padding-bottom: px;
+
     
 }
 input{
@@ -176,7 +185,7 @@ input{
     
 }
 .bas{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     text-align: justify;
 }
@@ -185,10 +194,6 @@ input{
     font-size: 13px;
     border: none;
     
-
-
-    
-
 }
 img{
     margin-right: 12px;
