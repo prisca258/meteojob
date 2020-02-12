@@ -66,10 +66,11 @@ label{
 }
 button:hover{
     background-color:#0f7ec5;
+    color: white;
 }
 button{
     padding: 8px;
-    background-color: #f2f2f2;
+    background-color:#f2f2f2;
 }
 .bot1{
     border: none;
@@ -86,13 +87,16 @@ button{
     color: white;
     background-color: #3498db ;
     width: 120px;
+    font-family: 'Open Sans',Arial, sans-serif;
+    font-size: 14px;
+    border: none;
 }
 .centre{
     display: flex;
     justify-content: center;
 }
 .gris{
-    background-color: rgb(233, 225, 225);
+    background-color:#f2f2f2;
 }
 .fusion{
     width: 500px;
@@ -108,6 +112,8 @@ button{
     border: none;
     margin-left: 5px;
     width: 400px;
+    outline: none;
+    
 }
 ::placeholder{
     padding: 20px;
@@ -123,8 +129,8 @@ button{
     text-align: center;
     font-size: 12px;
     border: none;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     
     
 }
@@ -135,10 +141,11 @@ button{
     width: 40px;
     padding: 15px;
     font-size: 12px;
-    text-align: center;
+    text-align:justify;
     border: none;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius:10px ;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px;
+    
 }
 a{
     color: black;
@@ -162,6 +169,7 @@ label{
 }
 input{
     margin-top: 5px;
+    padding-left: 10px;
     
 }
 .bas{
@@ -173,5 +181,10 @@ input{
     font-weight: bold;
     font-size: 13px;
     
+}
+span{
+    text-align: center;
+    
+
 }
 
